@@ -58,7 +58,7 @@ nav ul li a {
   text-transform: capitalize;
   font-size: 18px;
   color: red;
-  width: 70px;
+  width: 84px;
   background: #22274f;
   padding: 8px;
   border-radius: 4px;
@@ -143,8 +143,9 @@ p.phone {
 
 .inner-section {
   width: 380px;
-  height: 380px;
-  background: gray;
+  /* height: auto; */
+  /* height: 380px; */
+  /* background: gray; */
   padding: 16px;
   box-shadow: 2px 5px 6px black;
 }
@@ -153,6 +154,14 @@ p.phone {
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
+}
+
+.inner-section p {
+  width: 343px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .inner-section img {
@@ -166,18 +175,17 @@ p.phone {
 }
 
 span a {
+  color: #22274f;
   text-decoration: none;
-  color: yellow;
-  padding: 10px;
+  padding: 9px;
   border: 1px solid #22274f;
   width: 132px;
   margin-top: 20px;
-  text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
 }
 span a:hover {
   text-decoration: none;
@@ -185,7 +193,7 @@ span a:hover {
   background-color: green;
   padding: 10px;
   border: none;
-  box-shadow: 2px 5px 3px #fff;
+  box-shadow: 2px 5px 3px gray;
 }
 
 .feature {
@@ -198,6 +206,11 @@ span a:hover {
 }
 
 /** **/
+
+.skil-heading {
+  display: block;
+}
+
 .skil-heading h2 {
   display: flex;
   justify-content: center;
@@ -250,7 +263,7 @@ button.read-btn a {
   padding: 9px;
   border: 1px solid #22274f;
   display: inline-block;
-  width: 100px;
+  width: 132px;
   color: #22274f;
   text-transform: capitalize;
 }
@@ -262,4 +275,86 @@ button.read-btn a:hover {
   padding: 10px;
   border: none;
   box-shadow: 2px 5px 3px #22274f;
+}
+
+/** **/
+
+.newsleter {
+  margin-top: 60px;
+  background-color: rgba(252, 158, 0, 1);
+  padding: 50px;
+}
+
+.new-let-iner-sec {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.new-let-imges {
+  width: 484px;
+}
+
+.new-let-imges img {
+  max-width: 100%;
+}
+
+.linbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subbtn h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  margin-bottom: 40px;
+  color: #22274f;
+}
+
+.subbtn p {
+  font-size: 15px;
+  line-height: 2em;
+  color: #6a7597;
+}
+
+.subbtn input {
+  padding: 14px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 246, 230, 1);
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+button.subcribe {
+  padding: 10px;
+  width: 178px;
+  border: none;
+  background-color: rgba(252, 158, 0, 1);
+  border-radius: 8px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 15px;
+  margin-left: -186px;
+  cursor: pointer;
+}
+
+/** **/
+
+.futter {
+  background-color: black;
+  padding: 20px;
+  margin-top: 2px;
+}
+
+.futter p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
 }
